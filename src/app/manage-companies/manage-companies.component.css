@@ -1,0 +1,61 @@
+.dash-header{
+  width: 100%;
+  background:#333333;
+  position:fixed;
+}
+.dash-logo-section {
+    margin: 16px 16px 16px 16px;
+}
+.dash-logo-section img{
+    display:inline-block;
+    max-width:30px;
+    cursor:pointer;
+}
+.dash-logo-section p{
+    display:inline-block;
+    margin: 0px 0px 0px 10px;
+}
+.dash-logo-section p a{
+    color:#fff;
+    font-size:15px;
+    font-family: 'OpenSans';
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.dashbrd-options > a{
+    border: 1px solid #fefefe;
+    border-radius: 4px;
+    color: #fefefe;
+    font-size: 12px;
+    margin-top: 0 !important;
+    padding: 8px 12px;
+    text-transform: uppercase;
+}
+.dashbrd-options button{
+    background:none;
+    border:none;
+    max-width:60px;
+}
+.dashbrd-options > p{
+    color: #ffffff;
+    display: inline-block;
+    font-family: opensans;
+    font-size: 14px;
+    margin-right: 15px;
+    vertical-align: -4px;
+}
+.dashbrd-options > p span{
+    font-size: 19px;
+}
+.dashbrd-options button:hover, .dashbrd-options button:focus{
+    background:none!important;
+}
+.dashbrd-options .user-options, .dashbrd-options .user-options a{
+    display:inline-block;
+}
+.dashbrd-options .dropdown-menu{
+    left:auto;
+    right:0;
+}
